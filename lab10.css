@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(155, 209, 209);
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(6, 7, 7);
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(7, 98, 202);
+}
